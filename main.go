@@ -1,12 +1,9 @@
 package main
 
-import (
-	"fmt"
-	"rsc.io/quote"
-)
+import "fmt"
 
 //go:generate go run internal/generate/generatefoobar.go
 
 func main() {
-	fmt.Println(quote.Hello())
+	fmt.Println("hello")
 }
